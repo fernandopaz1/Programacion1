@@ -67,4 +67,9 @@ public class Fraccion {
 		q.reducir();
 		return q;
 	}
+	public static Fraccion division(Fraccion q1, Fraccion q2) {  
+	Fraccion q=new Fraccion(q1.numerador*q2.denominador,q1.denominador*q2.numerador);
+	q.reducir();
+	return q;
+}
 }
