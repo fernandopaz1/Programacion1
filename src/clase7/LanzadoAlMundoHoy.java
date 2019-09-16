@@ -5,7 +5,7 @@ public class LanzadoAlMundoHoy {
 	// Suma entre 0 y n
 	public static int sumar(int n) {
 		if (n < 0) {
-			throw new RuntimeException("N�mero negativo");
+			throw new RuntimeException("Número negativo");
 		}
 
 		if (n == 0) {
