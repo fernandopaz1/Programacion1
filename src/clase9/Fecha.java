@@ -8,7 +8,7 @@ public class Fecha{   //Hasta ahora solo usamos las clases como funciones
 	public Fecha(int d,int m,int a) {   //Este es el metodo constructor
 		this.dia = d;          //This asigna dia a la variables
 		this.mes=m;			
-		this.anio=a;	
+		this.anio=a;
 	}
 	
 	public void imprimir(){             //Aca defino como imprimir fecha ::Va sin el static
