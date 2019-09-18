@@ -4,7 +4,7 @@ public class PrueboAhorcado {
 
 	public static void main(String[] args) {
 		
-		String s="bobo";
+		String s="TUTIFRUTTI";
 		
 		try {
 			Ahorcado a=new Ahorcado(s);

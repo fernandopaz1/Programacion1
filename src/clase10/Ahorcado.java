@@ -36,9 +36,10 @@ public class Ahorcado {
 		this.ganado=false;
 	}
 
-	public boolean arriesgarLetra(char c) {
+	public boolean arriesgarLetra(String s) {
 		int bandera = 0;
 		int i;
+		char c=s.toLowerCase().charAt(0);
 		for (i = 0; i < this.palabra.length(); i++) {
 			if(c==this.estado[i]){
 				this.vidas-=1;
@@ -112,8 +113,7 @@ public class Ahorcado {
 			System.out.print("\nIntroducir letra o palabra completa:");
 			String s=scan.next();
 			if(s.length()==1) {
-				char c=s.charAt(0);
-				this.arriesgarLetra(c);
+				this.arriesgarLetra(s);
 			}
 			else {
 				this.arriesgarPalabra(s);
@@ -129,3 +129,4 @@ public class Ahorcado {
 	}
 	
 }
+

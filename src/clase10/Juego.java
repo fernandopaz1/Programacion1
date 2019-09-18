@@ -31,8 +31,6 @@ public class Juego {
 			scan = new Scanner(f);
 			int k = (int) (Math.random()*80000);
 			
-			System.out.print(scan.next());
-			
 			
 			
 
