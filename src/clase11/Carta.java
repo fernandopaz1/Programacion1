@@ -23,10 +23,16 @@ public class Carta
 		String[] palos = { "Espada", "Oro", "Copa", "Basto"};
 		return this.numero + " de " + palos[this.palo-1]; 
 	}
+	
+	public int getNumero() {
+		return this.numero;
+	}
+	public int getPalo() {
+		return this.palo;
+	}
 }
-
-
-
+	
+	
 
 
 

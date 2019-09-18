@@ -25,8 +25,13 @@ public class Jugador {
 			}		
 	}
 	
-	public void puedoJugar() {
-		
+	public boolean puedoJugar(Carta c) {
+		for(int i=0;i<this.ultima;i++) {
+			if(this.mano[i].getNumero()==c.getNumero() || this.mano[i].getPalo()==c.getPalo()) {
+				return true;
+			}
+		}
+		return false;
 	}
 	
 }
